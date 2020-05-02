@@ -1,0 +1,38 @@
+:host
+{
+    background: #F4F7FC !important;
+    size: 200px 200px;
+    display: block;    
+    height:100% !important
+}
+
+.title
+{
+    padding-top:32px;
+    padding-bottom:15px
+}
+
+.title .Category
+{
+    color:grey;
+    font-weight:bold
+}
+
+.title .active-page
+{
+    color:black;
+    font-weight: bold;
+}
+
+td
+{
+    padding:12px 12px 12px 0;
+    background:white !important;
+    font-weight:bold !important
+}
+
+tr,th
+{
+    font-weight:bold !important;
+    color:#AAA !important
+}

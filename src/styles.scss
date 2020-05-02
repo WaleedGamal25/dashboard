@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    overflow-x: hidden;
+    font-family: 'Muli', sans-serif !important;
+  }
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+// @import '~@fullcalendar/core/main.css';
+// @import '~@fullcalendar/daygrid/main.css';
+
+.fc-header-toolbar {
+  margin-bottom: 1em;
+  background-color: white !important;
+  padding: 15px 10px 4px !important;
+  box-shadow: 0 0 9px 1px #DDD !important;
+  border-radius: 5px !important;
+}
+
+#calendar button,
+button.fc-agendaWeek-button.fc-button.fc-state-default
+{
+    background:none;
+    background-color:#28346F;
+    color:white
+}

@@ -1,0 +1,181 @@
+:host
+{
+    background: #F4F7FC !important;
+    size: 200px 200px;
+    display: block;    
+    height:100% !important
+}
+
+.title .Category
+{
+    color:grey;
+    font-weight:bold
+}
+
+.title .active-page
+{
+    color:black;
+    font-weight: bold;
+}
+
+th.bg-white {
+    text-align: center;
+    display: flow-root;
+    box-shadow:0 0 6px 1px #DDD;
+    position: unset;
+    height: 76px;
+    width:77px;
+    line-height: 50px;    
+}
+
+
+tr
+{
+    background: white;
+    margin: 0;
+    padding: 0;
+    border-bottom: 8px solid #F4F7FC;
+    // line-height: 45px;
+}
+
+td
+{ 
+    padding-top:30px;
+    font-size:11px;
+    font-weight: bold;
+}
+
+.bg-none
+{
+    background:none
+}
+
+.filteration
+{
+    background-color: white;
+    box-shadow:0 0 6px 1px #DDD;
+    padding:15px 15px 10px;
+    border-radius: 7px;
+}
+
+.filteration input
+{
+    border-radius:30px !important
+}
+
+.filteration .btn
+{
+    background-color:#FFAC00;
+    color:white;
+    border-radius:30px !important;
+    font-weight:bold;
+    padding:10px 40px;
+    float:right
+}
+
+
+
+#target {
+    background:#fff;
+    width:500px;
+    height:auto;
+    padding:5px;
+    display:none;
+    box-shadow:0 0 6px 1px #CCC;
+    position: absolute;
+    top: 250px;
+    right: 60px;
+    z-index:999;
+
+    label
+    {
+        font-size:13px;
+        font-weight:bold
+    }
+  }
+  
+  .Hide
+  {
+    display:none;
+  }
+  
+
+
+div#target::after
+{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white transparent transparent;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 500;
+}
+
+thead
+{
+    color:#AAA;
+    font-size: 15px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .filteration .col-lg-3,
+    .filteration .col-lg-6
+    {
+        margin-bottom:20px
+    }
+
+    .filteration h5
+    {
+        text-align:center
+    }
+
+    #target {
+        width:400px;
+        position: absolute;
+        top: 360px;
+        right: 60px;
+        z-index:999;
+     }    
+    
+    }
+
+@media (min-width:768px) and (max-width:991px)
+{
+ .togglee
+ {
+     float:none;
+     margin:20px auto !important;
+     text-align:center !important;
+
+ }
+ 
+ #target {
+    width:500px;
+    position: absolute;
+    top: 320px;
+    right: 60px;
+    z-index:999;
+ }
+}
+
+@media (max-width: 500px)
+{
+    #target {
+    width:200px;
+    position: absolute;
+    top: 360px;
+    right: 40px;
+    z-index:999;
+ }   
+}
